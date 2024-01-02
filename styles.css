@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+.section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* Add your animated background */
+    background: url('https://img.freepik.com/premium-photo/students-going-back-school_955370-383.jpg?w=826'), linear-gradient(45deg, #9800d4, #4caf50);
+    background-size: cover;
+    background-blend-mode: multiply; /* This will blend the image and gradient together */
+    animation: gradientAnimation 15s infinite alternate;
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+/* About Me Section */
+#about {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    color: #333; /* Dark text color for contrast */
+    border: 1px solid #333; /* Add a 1px solid border with color #333 */
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    color: #333; /* Dark text color for contrast */
+    border: 1px solid #333; /* Add a 1px solid border with color #333 */
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    color: #333; /* Dark text color for contrast */
+    border: 1px solid #333; /* Add a 1px solid border with color #333 */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Reduce the top and bottom padding to make the footer smaller */
+    border-top: 1px solid #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    border: 1px solid #fff; /* Add a 1px solid border all around the header with color #fff */
+}
+
+/* Rest of your CSS code remains unchanged */  
+
